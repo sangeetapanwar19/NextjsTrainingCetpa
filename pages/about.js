@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../common/Header";
 import Navbar from "../common/Navbar";
 import Footer from "../common/Footer";
-import Styles from "../styles/About.module.css"
+import Styles from "../styles/About.module.scss"
 import Head from "next/head";
 import Image from "next/image"
 

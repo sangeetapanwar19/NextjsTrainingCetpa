@@ -5,7 +5,7 @@ const Header = () => {
     return (
             <div class="row">
                 <div class="col-md-3">
-                    <Image src="/logo.jpg" width={100} height={100}/>
+                    <Image src="/cart.png" width={100} height={100}/>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                    <input type="text" class="form-control" placeholder="Search Here"/>
