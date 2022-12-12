@@ -1,7 +1,7 @@
 import React from "react";
 
 export const getStaticProps = async () => {
-    const response = await fetch('https://fakestoreapi.com/products');
+    const response = await fetch(process.env.API_URL);
     const data = await response.json();
     return {
         props: { productData: data }
